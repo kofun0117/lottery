@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lottery.css" />
+    <title>抽選箱</title>
+</head>
+<body>
+    <h1>好きなものを入れて抽選しよう</h1>
+    <p>入力欄から抽選したいものを入れて下さい</p>
+    <p> [入れる]    入力欄のアイテムを箱に入れます<br>
+        [箱の中を見る]箱の中のアイテムを見ることができます<br>
+        [抽選する]  箱の中からアイテムを1つ引きます<br>
+        [再抽選]    引いたもの戻して抽選をやり直します<br>
+        [クリア]    箱を空にして初めからやり直します<br>
+    </p>
+    <input type="text" id="item" size="40" maxlength="20" />
+    <button id="input" class="button">入れる</button><br>
+
+    <img src="image/box.png" title="抽選箱" alt="抽選箱"><br>
+    <button id="show" class="button">箱の中を見る</button>
+        <button id="draw" class="button">抽選する</button>
+    <div id="result-area"></div>
+    <button id="restart-draw" class="button">再抽選</button>
+    <button id="restart" class="button">クリア</button>
+    <script src="lottery.js"></script>
+</body>
+</html>

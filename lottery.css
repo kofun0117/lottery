@@ -1,0 +1,21 @@
+body{
+    background-color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+    width:500px;
+}
+.button{
+    border-radius:5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:5px;
+}
+#draw{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+#draw_wrapper{
+    text-align: center;
+}
